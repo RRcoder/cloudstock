@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Productos</h1>
+
+{% for r in datos %}
+    {{ r[0] }}
+    {{ r[1] }}
+    {{ r[2] }}
+    {{ r[3] }}
+    {{ r[4] }}
+    {{ r[5] }}
+    <br>
+{% endfor %}
+
+{% endblock %}
+
